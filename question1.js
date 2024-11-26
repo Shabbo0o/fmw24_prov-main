@@ -48,4 +48,4 @@ function totalTax(cars) {
 
 
 console.log(totalTax(taxedCars));
-// module.exports = totalTax;
+module.exports = totalTax;

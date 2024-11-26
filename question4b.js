@@ -9,9 +9,11 @@ const product2 = {
   brand: "TechBrand",
 };
 
-function updatePriceWithDiscount(product, discount) {
+function updatePriceWithDiscount(product2, discount) {
   // Din kod här
-  let newPrice = product2.price - product2.price*discount/100;
+  //let newPrice = product2.price - product2.price*discount/100;
+  let newPrice = ((100 - discount)/100) * product2.price;
+  
   let newProduct2 = {...product2, price: newPrice};
   return newProduct2;
 }
