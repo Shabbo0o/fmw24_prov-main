@@ -38,7 +38,7 @@ function totalTax(cars) {
       carTax += 45;
     } if (getHour(car.time) == 8){
       carTax += 30;
-    } if (getHour(car.time) >= 9 || getHour(car.time) <= 18){
+    } if (getHour(car.time) >= 9 && getHour(car.time) <= 18){
       carTax += 20;
     } //else carTax +=0;
       console.log(getHour(car.time)) ;
